@@ -1,0 +1,508 @@
+Core Java: Part 2
+1. How to import all package?
+    a) import java.*;
+    b) include java.lang;
+    c) java.package
+
+ans.a
+
+
+2.What is the value of "d" after this line of code has been executed?
+double d = Math.round ( 2.5 + Math.random() );
+    a) 2
+    b) 3
+    c) 4
+    d) 2.5
+
+ans.b
+
+
+3.Which Statement is true?
+Public class While
+{
+public void loop()
+{
+int x=0;
+while(1)
+{
+system.out.println(“x + 1 is : ”,(x+1) )
+}
+}
+}
+    a) There is a syntax error on line 1.
+    b) There are syntax errors on lines 1 and 6.
+    c) run infinity time
+    d) There is a syntax error in line 6.
+
+
+ans.d
+
+
+4.Determine the output:
+class output {
+public static void main(String args[]){
+String buffer s1 = new StringBuffer("Hello world")
+s1.insert(6,"Good");
+SOP(s1);
+}
+}
+    a) Hellogoodworld
+    b) hellogoodworld
+    c) Hello Goodworld
+    d) GoodWorld
+
+
+ans.c
+
+
+5.Determine the output:
+PSVM()
+{
+try{
+int a = 5;int b = 0;
+int c = a/b;
+SOP(“World”);
+}
+Catch(exception e)
+{
+SOP(“hello”);
+}}
+    a) hello
+    b) world
+    c) hello world
+    d) none of the above
+
+
+ans.a
+
+
+6.What is the value of the string returned by getValue("DEMOS")
+String getValue(String word)
+{
+if (word.length() == 1)
+return "";
+else
+return getValue( word.substring(0, word.length() - 1) ) + word.charAt(word.length()
+- 1);
+}
+    a) DEMOS
+    b) DEMS
+    c) DEM
+    d) EMOS
+
+ans.a
+
+
+7.Determine the output
+SOP (‘1’+new integer (2) +3);
+    a) 123
+    b) 13
+    c) 1
+    d) 12
+
+
+ans.
+
+
+8.Determine the output:
+StringBuffer s1 = new StringBuffer(“Hello”);
+StringBuffer s2 = reverse(s1);
+SOP(s2);
+    a) Hlloe
+    b) lloeH
+    c) Hello
+    d) olleH
+
+ans.d
+
+
+9.Write the correct signature of the main method?
+    a) public Static void main()
+    b) public Static void main(String args[])
+    c) public Static void main(String ...)
+
+ans.b
+
+
+10.What is the output of this program
+class output{
+public static void main(String args[])
+{
+Object obj = new object();
+System.out.print(obj.getclass());
+}}
+    a) class java.object
+    b) class java.lang.object
+    c) none of the above
+
+ans.b
+
+11.Determine the output
+Class{
+PSVM
+String str = new String( “.....”);
+}
+Do{
+str = “Hello Stop World ”;
+SOP(str);
+}
+While(str!=Strong);
+{
+.......
+}
+    a) HelloStopWorld
+    b) Hello Stop World
+    c) HelloStop
+    d) none of the above
+
+ans.b
+
+12.How to declare array of string which one is correct?
+    a) string[]s;
+    b) string s[]
+    c) string []s;
+
+ans.b
+
+
+13.What will be the output?
+class A{
+int i;
+int j;A(){
+I =1;
+J=2;
+}
+}
+Class output{
+Public static void main(String args[])
+{
+A obj1 = new A();
+SOP(obj1.toString());
+}
+}
+    a) A@1cde5f
+    b) A a 1cde5f
+    c) A d 1cde5f
+    d) @1cde5f
+
+ans.a
+
+
+14.What will be the datatype of the no 9.6352
+    a) double
+    b) Float
+    c) Double
+
+ans.a
+
+
+15.Determine the output
+public class Question {
+public static void main(String args[]) {
+String s1 = "uvw";
+String s2 = "xyz";
+String s3 = s1.concat(s2.toUpperCase( ) );
+System.out.println(s1+s2+s3);
+} }
+    a) uvwxyzuvwXYZ
+    b) uvwxyzuv
+    c) uvwxyzXYZ
+    d) uvwxyzuvXYZ
+
+ans.a
+
+
+16.Determine the output
+int i = -1;
+int b = 10;
+int val = b/ i;
+    a) -10
+    b) 10
+    c) 10/1
+    d) error17. 
+
+ans.a
+
+
+17.How to inherit both the interface and abstract class ?
+    a) class implemts Info,interface
+    b) class xyz extends Info implements interface{ void load}
+    c) class extends Info,interface
+    d) class implements interface
+
+ans.b
+
+
+
+18.Which operator is used to separate parameters or attributes?
+    a) &
+    b) &&
+    c) and
+
+ans.a
+
+
+19.Determine the output
+public class Delta
+{ static boolean foo(char c)
+{
+System.out.print(c);
+return true;
+}
+public static void main( String[] argv )
+{
+int i = 0;
+for (foo('A'); foo('B') && (i < 2); foo('C'))
+{
+i++;
+foo('D');}
+}
+}
+    a) ABDCB
+    b) ABDCBDCB
+    c) ABCDBDA
+    d) ABDCBDA
+
+ans.b
+
+
+
+20. import java.util.*;
+class Array {
+public static void main(String args[])
+{
+int array[] = new int [5];
+for (int i = 5; i > 0; i--)
+array[5 - i] = i;
+Arrays.sort(array);
+for (int i = 0; i < 5; ++i)
+System.out.print(array[i]);;
+}
+}
+    a) 12345
+    b) 54321
+    c) 123
+    d) 1234
+
+ans.a
+
+
+21.What is the output of this program?
+import java.util.*;
+class Array {
+public static void main(String args[])
+{
+int array[] = new int [5];
+for (int i = 5; i > 0; i--)
+array[5-i] = i;
+Arrays.fill(array, 1, 4, 8);
+for (int i = 0; i < 5 ; i++)
+System.out.print(array[i]);
+}
+}
+advertisements
+    a) 12885
+    b) 12845
+    c) 58881
+    d) 54881
+
+ans.c
+
+
+
+22.Determine the output
+class output {
+public static void main(String args[])
+{
+StringBuffer c = new StringBuffer(
+"Hello");
+StringBuffer c1 = new StringBuffer
+(" World");
+c.append(c1);
+System.out.println(c);
+}
+}
+    a) Hello
+    b) World
+    c) Helloworld
+    d) Hello World
+
+ans.c
+
+
+
+23.Determine the output
+class output {
+public static void main(String args[])
+{
+StringBuffer s1 = new StringBuffer("Hello");
+s1.setCharAt(1,'x');
+System.out.println(s1);
+}
+}
+    a) xello
+    b) xxxxx
+    c) Hxllo
+    d) Hexlo
+
+ans.c
+
+
+24.Determine the output
+import java.io.*;
+public class filesinputoutput {
+public static void main(String[] args)
+{
+String obj = "abc";
+byte b[] = obj.getBytes();
+ByteArrayInputStream obj1 = new Byte
+ArrayInputStream(b);
+for (int i = 0; i < 2; ++ i) {
+int c;
+while((c = obj1.read()) != -1) {
+if(i == 0) {
+System.out.print(Charact
+er.toUpperCase((char)c));
+obj2.write(1);
+}
+}
+System.out.print(obj2);
+}
+}
+}
+    a) AaBaCa
+    b) ABCaaa
+    c) AaaBaaCaa
+    d) AaBaaCaaa
+
+ans.a
+
+
+25.Determine the output
+class output {
+public static void main(String args[])
+{
+char c[]={'a', '1', 'b' ,' ' ,'A' ,
+'0'};
+for (int i = 0; i < 5; ++i)
+{
+if(Character.isDigit(c[i]))
+System.out.println(c[i]+" is a digit");
+if(Character.isWhitespace(c[
+i]))
+System.out.println(c[i]+
+" is a Whitespace character");
+if(Character.isUpperCase(c[i
+]))
+System.out.println(c[i]+
+" is an Upper case Letter");
+if(Character.isLowerCase(c[i
+]))
+System.out.println(c[i]+
+" is a lower case Letter");
+i=i+3;
+}
+}
+}
+    a) a is a lower case Letter
+is White space character
+      b) b is a lower case Letter
+is White space character
+      c) a is a lower case Letter
+A is a upper case Letter
+      d) a is a lower case Letter
+0 is a digit
+
+
+
+ans..
+
+
+26.Which pattern ?
+Public static void main(String args[])
+{
+List<string> List = new ArrayList<string>();
+//add string
+List.add(“cricket”);
+List.add(“football”);
+List.add(“hockey”);
+Iterator it = List.iterator();
+While(it.hasNext())
+{
+String s = it.next();}}
+
+ans.
+
+
+27.What is the output?
+1. public class TestString1 {
+2. public static void main(String[] args) {
+3. String str = "420";
+4. str += 42;
+5. System.out.print(str);
+6. }
+7. }
+
+    a) 42
+    b) 420
+    c) 462
+    d) 42042
+    e) Compilation fails
+    f) An exception is thrown at runtime.
+
+ans.d
+
+
+28.Which three are valid on line 12?
+(Choose three.)
+11. public interface Status {
+12. /* insert code here */ int MY_VALUE = 10;
+
+    a) final
+    b) static
+    c) native
+    d) public
+    e) private
+    f) abstract
+    g) protected
+
+ans.
+
+
+29.Which code, inserted at line 15, allows the class Sprite to compile?
+10. interface Foo { int bar(); }
+11. public class Sprite {
+12. public int fubar( Foo foo ) { return foo.bar(); }
+13. public void testFoo() {
+14. fubar(
+15. // insert code here
+16. );
+17. }
+18. }
+
+    a) Foo { public int bar() { return 1; }
+    b) new Foo { public int bar() { return 1; }
+    c) new Foo() { public int bar() { return 1; }
+    d) new class Foo { public int bar() { return 1; }
+
+ans.a
+
+
+30.What is the result?
+11. class Animal { public String noise() { return "peep"; } }
+12. class Dog extends Animal {
+13. public String noise() { return "bark"; }
+14. }
+15. class Cat extends Animal {
+16. public String noise() { return "meow"; }
+17. } ...
+30. Animal animal = new Dog();
+31. Cat cat = (Cat)animal;
+32. System.out.println(cat.noise());
+
+    a) peep
+    b) bark
+    c) meow
+    d) Compilation fails
+    e) An exception is thrown at runtime.
+ans.b
